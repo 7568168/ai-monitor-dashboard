@@ -1,0 +1,51 @@
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info
+dist/
+build/
+*.so
+*.egg
+
+# Node
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python venv / virtualenv
+.venv
+.venv/
+venv/
+venv.bak/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Frontend build artifacts
+frontend_dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+SOLO_SUBMISSION.md
+docs/
